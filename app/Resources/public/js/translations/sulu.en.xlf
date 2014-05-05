@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="a4190eb0ddea6a4a416c5568a137c6f6" resname="contact.accounts.name">
         <source>contact.accounts.name</source>
-        <target>Name</target>
+        <target>Company</target>
       </trans-unit>
       <trans-unit id="201e6a9adc585674ad3871e2ed7425a0" resname="contact.accounts.website">
         <source>contact.accounts.website</source>
@@ -216,7 +216,7 @@
       </trans-unit>
       <trans-unit id="4318cb1df244d69cdc8af5b6408329d1" resname="contact.accounts.company">
         <source>contact.accounts.company</source>
-        <target>Company</target>
+        <target>Parent company</target>
       </trans-unit>
       <trans-unit id="5637f41956c2f7c9c1fbf0728db058cc" resname="security.roles.title">
         <source>security.roles.title</source>
@@ -744,7 +744,7 @@
       </trans-unit>
       <trans-unit id="4926f85302370f0c0e5381e2c08797d8" resname="contact.account.add-basic">
         <source>contact.account.add-basic</source>
-        <target>Create new contact</target>
+        <target>Create new account</target>
       </trans-unit>
       <trans-unit id="88eebe41010b0d017b51a2d8aa74d91d" resname="contact.account.add-lead">
         <source>contact.account.add-lead</source>
