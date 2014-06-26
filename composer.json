@@ -47,7 +47,9 @@
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev",
         "friendsofsymfony/rest-bundle": "@dev",
-        "friendsofsymfony/http-cache": "@dev"
+        "friendsofsymfony/http-cache": "@dev",
+
+        "knplabs/github-api": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
