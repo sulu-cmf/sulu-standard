@@ -35,6 +35,7 @@
         "sulu/translate-bundle": "dev-develop",
         "sulu/product-bundle": "dev-develop",
         "sulu/sales-core-bundle": "dev-develop",
+        "sulu/sales-order-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
