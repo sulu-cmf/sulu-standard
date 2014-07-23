@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "accfc19be7067aeb2c04fe2272415c94",
+    "hash": "32f4344976166d3ce88515864c22b650",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -188,7 +188,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -257,7 +257,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -331,7 +331,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -650,7 +650,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -704,7 +704,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1134,12 +1134,12 @@
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -1721,9 +1721,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1826,7 +1826,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2365,12 +2365,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+                "reference": "a0777e79535e49759be8f141538edba65e99f183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/a0777e79535e49759be8f141538edba65e99f183",
+                "reference": "a0777e79535e49759be8f141538edba65e99f183",
                 "shasum": ""
             },
             "require": {
@@ -2449,12 +2449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60"
+                "reference": "da7bb5db007d98a5541323480d325215e57231e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
-                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/da7bb5db007d98a5541323480d325215e57231e6",
+                "reference": "da7bb5db007d98a5541323480d325215e57231e6",
                 "shasum": ""
             },
             "require": {
@@ -2875,12 +2875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "01629e58dd78c6d41cf7a4c4e3035862395eb73d"
+                "reference": "b6ec7beece6b2e0692031f38a3b378cabe9688d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/01629e58dd78c6d41cf7a4c4e3035862395eb73d",
-                "reference": "01629e58dd78c6d41cf7a4c4e3035862395eb73d",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/b6ec7beece6b2e0692031f38a3b378cabe9688d4",
+                "reference": "b6ec7beece6b2e0692031f38a3b378cabe9688d4",
                 "shasum": ""
             },
             "require": {
@@ -2932,7 +2932,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-07-22 20:16:41"
+            "time": "2014-07-23 07:21:26"
         },
         {
             "name": "sulu/media-bundle",
@@ -2941,12 +2941,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "1a3ddb9e71e90eadb2e1a714a70d1d8a36416093"
+                "reference": "7ed1f1ac75248cde482a494fb85b1d50d413c917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/1a3ddb9e71e90eadb2e1a714a70d1d8a36416093",
-                "reference": "1a3ddb9e71e90eadb2e1a714a70d1d8a36416093",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/7ed1f1ac75248cde482a494fb85b1d50d413c917",
+                "reference": "7ed1f1ac75248cde482a494fb85b1d50d413c917",
                 "shasum": ""
             },
             "require": {
@@ -2995,7 +2995,126 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-07-22 19:41:09"
+            "time": "2014-07-23 09:27:30"
+        },
+        {
+            "name": "sulu/product-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/ProductBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluProductBundle.git",
+                "reference": "15077865f5aa103c17aa50484950a661ecb37b47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBundle/zipball/15077865f5aa103c17aa50484950a661ecb37b47",
+                "reference": "15077865f5aa103c17aa50484950a661ecb37b47",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/http-cache": "@dev",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/contact-bundle": "dev-develop",
+                "sulu/security-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
+                "sulu/tag-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/test-bundle": "dev-develop",
+                "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\ProductBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluProductBundle/contributors"
+                }
+            ],
+            "description": "The Sulu Bundle for managing products",
+            "keywords": [
+                "product",
+                "sulu"
+            ],
+            "time": "2014-06-17 06:50:03"
+        },
+        {
+            "name": "sulu/sales-core-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/Sales/CoreBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluSalesCoreBundle.git",
+                "reference": "2dc57580ada9ba6f2bbf68f5e3a5d012748d195b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSalesCoreBundle/zipball/2dc57580ada9ba6f2bbf68f5e3a5d012748d195b",
+                "reference": "2dc57580ada9ba6f2bbf68f5e3a5d012748d195b",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/http-cache": "@dev",
+                "friendsofsymfony/rest-bundle": "dev-master",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "stof/doctrine-extensions-bundle": "1.1.*@dev",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/contact-bundle": "dev-develop",
+                "sulu/product-bundle": "dev-develop",
+                "sulu/security-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
+                "willdurand/hateoas-bundle": "0.3.*"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/tag-bundle": "dev-develop",
+                "sulu/test-bundle": "dev-develop",
+                "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\Sales\\CoreBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluSalesCoreBundle/contributors"
+                }
+            ],
+            "description": "Core Bundle of Sulu Sales",
+            "keywords": [
+                "items",
+                "sales"
+            ],
+            "time": "2014-07-23 08:53:48"
         },
         {
             "name": "sulu/security-bundle",
@@ -3063,12 +3182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "ab5f299689c49780e293686f6a334bead549ec7f"
+                "reference": "76236a1ff38123cff27f7cb94b5677ae49003d5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/ab5f299689c49780e293686f6a334bead549ec7f",
-                "reference": "ab5f299689c49780e293686f6a334bead549ec7f",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/76236a1ff38123cff27f7cb94b5677ae49003d5d",
+                "reference": "76236a1ff38123cff27f7cb94b5677ae49003d5d",
                 "shasum": ""
             },
             "require": {
@@ -3110,7 +3229,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-07-22 19:40:10"
+            "time": "2014-07-23 11:47:17"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4119,7 +4238,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4211,7 +4330,7 @@
             ],
             "authors": [
                 {
-                    "name": "Brian",
+                    "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
                     "role": "Lead"
@@ -4264,7 +4383,7 @@
             ],
             "authors": [
                 {
-                    "name": "Brian",
+                    "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
                     "role": "Lead"
@@ -4911,12 +5030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "faf01a97b50e3975cb477d4d6279614a9c2550ad"
+                "reference": "204d90e934ec3d40feac05df00b49f4990366ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/faf01a97b50e3975cb477d4d6279614a9c2550ad",
-                "reference": "faf01a97b50e3975cb477d4d6279614a9c2550ad",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/204d90e934ec3d40feac05df00b49f4990366ab3",
+                "reference": "204d90e934ec3d40feac05df00b49f4990366ab3",
                 "shasum": ""
             },
             "require": {
@@ -4951,7 +5070,7 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-07-22 20:11:43"
+            "time": "2014-07-23 06:53:01"
         }
     ],
     "aliases": [
@@ -4969,6 +5088,8 @@
         "sulu/tag-bundle": 20,
         "sulu/category-bundle": 20,
         "sulu/translate-bundle": 20,
+        "sulu/product-bundle": 20,
+        "sulu/sales-core-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
