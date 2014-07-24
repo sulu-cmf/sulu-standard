@@ -66,10 +66,10 @@ sulu_translate_api:
     prefix: /admin/api
 
 sulu_order:
-    resource: "@SuluSalesOrderBundle/Resources/config/routing.yml"
+    resource: "@SuluSalesOrderBundle/Resources/config/routing.xml"
     prefix: /admin/order
 
 sulu_order_api:
     type: rest
-    resource: "@SuluSalesOrderBundle/Resources/config/routing_api.yml"
+    resource: "@SuluSalesOrderBundle/Resources/config/routing_api.xml"
     prefix: /admin/api

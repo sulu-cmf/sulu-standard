@@ -34,6 +34,7 @@ class AppKernel extends Kernel
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\CategoryBundle\SuluCategoryBundle(),
+            new Sulu\Bundle\ProductBundle\SuluProductBundle(),
             new Sulu\Bundle\Sales\CoreBundle\SuluSalesCoreBundle(),
             new Sulu\Bundle\Sales\OrderBundle\SuluSalesOrderBundle(),
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
