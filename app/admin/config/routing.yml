@@ -65,20 +65,11 @@ sulu_translate_api:
     type: rest
     prefix: /admin/api
 
-sulu_category:
-    resource: "@SuluCategoryBundle/Resources/config/routing.yml"
-    prefix: /admin/category
-
-sulu_category_api:
-    type: rest
-    resource: "@SuluCategoryBundle/Resources/config/routing_api.yml"
-    prefix: /admin/api
-
-sulu_category:
+sulu_order:
     resource: "@SuluSalesOrderBundle/Resources/config/routing.yml"
     prefix: /admin/order
 
-sulu_category_api:
+sulu_order_api:
     type: rest
     resource: "@SuluSalesOrderBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
