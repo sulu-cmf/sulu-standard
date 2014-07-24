@@ -73,3 +73,12 @@ sulu_category_api:
     type: rest
     resource: "@SuluCategoryBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
+
+sulu_category:
+    resource: "@SuluSalesOrderBundle/Resources/config/routing.yml"
+    prefix: /admin/order
+
+sulu_category_api:
+    type: rest
+    resource: "@SuluSalesOrderBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
