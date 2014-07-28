@@ -73,3 +73,12 @@ sulu_order_api:
     type: rest
     resource: "@SuluSalesOrderBundle/Resources/config/routing_api.xml"
     prefix: /admin/api
+
+sulu_product:
+    resource: "@SuluProductBundle/Resources/config/routing.yml"
+    prefix: /admin/order
+
+sulu_product_api:
+    type: rest
+    resource: "@SuluProductBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
