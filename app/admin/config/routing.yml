@@ -82,3 +82,7 @@ sulu_product_api:
     type: rest
     resource: "@SuluProductBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
+
+sulu_location:
+    resource: "@SuluLocationBundle/Resources/config/routing.yml"
+    prefix: /admin/location
