@@ -3387,12 +3387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "f6c67a822ca0c11747747065b93f7a843c2e6193"
+                "reference": "b6f6d9e913d6cdb4fa0310b9242b885443e3c782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/f6c67a822ca0c11747747065b93f7a843c2e6193",
-                "reference": "f6c67a822ca0c11747747065b93f7a843c2e6193",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/b6f6d9e913d6cdb4fa0310b9242b885443e3c782",
+                "reference": "b6f6d9e913d6cdb4fa0310b9242b885443e3c782",
                 "shasum": ""
             },
             "require": {
@@ -3427,7 +3427,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-08 14:03:32"
+            "time": "2014-08-11 13:07:53"
         },
         {
             "name": "sulu/category-bundle",
