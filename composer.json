@@ -58,7 +58,8 @@
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
         "sulu/test-bundle": "dev-develop",
-        "jackalope/jackalope-doctrine-dbal": "1.1.*"
+        "jackalope/jackalope-doctrine-dbal": "1.1.*",
+        "raulfraile/ladybug-bundle": "1.0.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -67,7 +68,6 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp",
             "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ],
         "post-update-cmd": [
@@ -76,7 +76,6 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp",
             "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ]
     },
@@ -88,7 +87,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "incenteev-parameters": {
-            "file": "app/Resources/config/parameters.yml"
+            "file": "app/config/parameters.yml"
         }
     }
 }
