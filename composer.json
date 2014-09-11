@@ -37,6 +37,7 @@
         "sulu/sales-core-bundle": "dev-develop",
         "sulu/sales-order-bundle": "dev-develop",
         "sulu/sales-shipping-bundle": "dev-develop",
+        "sulu/sales-invoice-bundle": "dev-develop",
         "sulu/location-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
