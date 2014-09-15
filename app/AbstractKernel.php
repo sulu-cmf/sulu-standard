@@ -56,7 +56,7 @@ abstract class AbstractKernel extends Kernel
             new Sulu\Bundle\Sales\CoreBundle\SuluSalesCoreBundle(),
             new Sulu\Bundle\Sales\OrderBundle\SuluSalesOrderBundle(),
             new Sulu\Bundle\Sales\ShippingBundle\SuluSalesShippingBundle(),
-            new Sulu\Bundle\Sales\InvoiceBundle\SuluSalesInvoiceBundle(),
+//            new Sulu\Bundle\Sales\InvoiceBundle\SuluSalesInvoiceBundle(),
 
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
