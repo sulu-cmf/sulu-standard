@@ -51,9 +51,17 @@ abstract class AbstractKernel extends Kernel
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\CategoryBundle\SuluCategoryBundle(),
+
+            new Sulu\Bundle\ProductBundle\SuluProductBundle(),
+            new Sulu\Bundle\Sales\CoreBundle\SuluSalesCoreBundle(),
+            new Sulu\Bundle\Sales\OrderBundle\SuluSalesOrderBundle(),
+            new Sulu\Bundle\Sales\ShippingBundle\SuluSalesShippingBundle(),
+//            new Sulu\Bundle\Sales\InvoiceBundle\SuluSalesInvoiceBundle(),
+
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
+
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),

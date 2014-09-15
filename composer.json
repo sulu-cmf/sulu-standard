@@ -33,6 +33,11 @@
         "sulu/tag-bundle": "dev-develop",
         "sulu/category-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
+        "sulu/product-bundle": "dev-develop",
+        "sulu/sales-core-bundle": "dev-develop",
+        "sulu/sales-order-bundle": "dev-develop",
+        "sulu/sales-shipping-bundle": "dev-develop",
+        "sulu/sales-invoice-bundle": "dev-develop",
         "sulu/location-bundle": "dev-develop",
         "sulu/search-bundle": "dev-develop",
 
