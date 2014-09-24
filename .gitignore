@@ -3,6 +3,7 @@
 /app/data/*
 /app/config/parameters.yml
 /app/config/phpcr.yml
+/app/config/widgets.yml
 /app/logs/*
 /bin/
 /build/
