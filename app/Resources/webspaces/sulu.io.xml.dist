@@ -22,6 +22,23 @@
         </excluded>
     </theme>
 
+    <navigation>
+        <contexts>
+            <context key="main">
+                <meta>
+                    <title lang="de">Hauptnavigation</title>
+                    <title lang="en">Mainnavigation</title>
+                </meta>
+            </context>
+            <context key="footer">
+                <meta>
+                    <title lang="de">Footernavigation</title>
+                    <title lang="en">Footernavigation</title>
+                </meta>
+            </context>
+        </contexts>
+    </navigation>
+
     <portals>
         <portal>
             <name>sulu.io</name>
@@ -38,8 +55,8 @@
             <environments>
                 <environment type="prod">
                     <urls>
-                        <url language="en" country="us">sulu.us</url>
-                        <url language="de" country="at">www.sulu.io</url>
+                        <url language="en">sulu.us</url>
+                        <url language="de">www.sulu.io</url>
                         <url>sulu.lo/{localization}</url>
                     </urls>
                 </environment>
@@ -52,7 +69,7 @@
                 <environment type="dev">
                     <urls>
                         <url>sulu.lo/{localization}</url>
-                        <url language="en" country="us">localhost</url>
+                        <url language="en">localhost</url>
                     </urls>
                 </environment>
             </environments>
