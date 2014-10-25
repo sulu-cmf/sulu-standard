@@ -19,6 +19,7 @@ before_script:
   - cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml
   - cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml
   - cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
+  - cp app/config/widgets.yml.dist app/config/widgets.yml
   - ./tests/sauce/connect_setup.sh
   - composer self-update
   - composer update --prefer-dist --no-interaction
