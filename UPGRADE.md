@@ -1,5 +1,8 @@
 # Upgrade
 
+## 0.12.1
+ * Add `format_cache.public_folder`: 'web' to parameters.yml
+
 ## 0.12.0
 
 * Permissions have to be correct now, because they are applied
