@@ -2,6 +2,9 @@
 
 ## develop
 
+### Sulu locales
+added `sulu_core.locales` to `app/config.yml`. These are the localizations for the sulu interface.
+
 ### Environment Variable
 We are now using the `SYMFONY_ENV` instead of the `APP_ENV` environment variable. You have to update your
 `web/.htaccess` file or your system environment variables.
