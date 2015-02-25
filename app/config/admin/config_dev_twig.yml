@@ -1,0 +1,4 @@
+# Include the testbundle templates in staging mode
+twig:
+    paths:
+        "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/TestBundle/Resources/views": sulu_test_bundle
