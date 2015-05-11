@@ -61,8 +61,8 @@ because the parameter does not longer exists:
 ``` yml
 sulu_media:
     format_cache:
-        public_folder: 'public' # delete this line
-        path: %kernel.root_dir%/../public/uploads/media # add this new configuration
+        public_folder: 'web' # delete this line
+        path: %kernel.root_dir%/../web/uploads/media # add this new configuration
 ```
 
 ### Admin
