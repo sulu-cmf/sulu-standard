@@ -20,6 +20,7 @@ script: ./tests/runtests.sh
 
 php:
     - 5.6
+    - hhvm
 
 before_script: ./tests/beforetests.sh
 
