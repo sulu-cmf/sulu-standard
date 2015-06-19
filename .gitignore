@@ -16,6 +16,8 @@
 /web/css
 /web/js
 /web/uploads/media/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
 
 # IDEs
 .idea/*
