@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install test configuration
+cp tests/config.local.yml app/config/config.local.yml
+
 sudo apt-get update
 sudo apt-get install apache2 libapache2-mod-fastcgi
 

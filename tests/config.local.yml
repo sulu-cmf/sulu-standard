@@ -1,0 +1,9 @@
+security:
+    firewalls:
+        admin:
+            pattern: ^/
+            anonymous: ~
+            http_basic: ~
+            entry_point: ~
+            form_login: false
+            stateless: true

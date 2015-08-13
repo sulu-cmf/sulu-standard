@@ -114,7 +114,7 @@ selenium:
 sauce_labs:
     extensions:
         Behat\MinkExtension:
-            base_url: 'http://127.0.0.1:8080/'
+            base_url: 'http://admin:admin@127.0.0.1:8080/'
             sessions:
                 default:
                     sauce_labs:
