@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc632eb4b06b11e8fb6f23274ac7d5e9",
+    "hash": "51d17f80cbbe31669260f38c8b684775",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -986,26 +986,30 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.4.7",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "2bc4ff3cab2ae297bcd05f2e619d42e6a7ca9e68"
+                "reference": "aa80c7d2c55a372f5f9f825f5c66dbda53a6e3fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/2bc4ff3cab2ae297bcd05f2e619d42e6a7ca9e68",
-                "reference": "2bc4ff3cab2ae297bcd05f2e619d42e6a7ca9e68",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/aa80c7d2c55a372f5f9f825f5c66dbda53a6e3fe",
+                "reference": "aa80c7d2c55a372f5f9f825f5c66dbda53a6e3fe",
                 "shasum": ""
             },
             "require": {
-                "doctrine/collections": "~1.1",
-                "doctrine/dbal": "~2.4",
+                "doctrine/cache": "~1.4",
+                "doctrine/collections": "~1.2",
+                "doctrine/common": ">=2.5-dev,<2.6-dev",
+                "doctrine/dbal": ">=2.5-dev,<2.6-dev",
+                "doctrine/instantiator": "~1.0.1",
                 "ext-pdo": "*",
-                "php": ">=5.3.2",
-                "symfony/console": "~2.0"
+                "php": ">=5.4",
+                "symfony/console": "~2.5"
             },
             "require-dev": {
+                "phpunit/phpunit": "~4.0",
                 "satooshi/php-coveralls": "dev-master",
                 "symfony/yaml": "~2.1"
             },
@@ -1019,7 +1023,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -1055,7 +1059,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-12-16 13:45:01"
+            "time": "2015-04-02 20:40:18"
         },
         {
             "name": "doctrine/phpcr-bundle",
@@ -3410,21 +3414,21 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "dev-feature/doctrine-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "05c78e5c3e9a4dd28d07029b5566ee31fbdf1d6d"
+                "reference": "9183d5fee0b411e6603c4e258fc32e8605ea2a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/05c78e5c3e9a4dd28d07029b5566ee31fbdf1d6d",
-                "reference": "05c78e5c3e9a4dd28d07029b5566ee31fbdf1d6d",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/9183d5fee0b411e6603c4e258fc32e8605ea2a99",
+                "reference": "9183d5fee0b411e6603c4e258fc32e8605ea2a99",
                 "shasum": ""
             },
             "require": {
                 "cboden/ratchet": "0.3.*",
-                "doctrine/orm": "2.4.*",
+                "doctrine/orm": "2.5.*",
                 "doctrine/phpcr-bundle": "~1.2.0",
                 "doctrine/phpcr-odm": "~1.2.0",
                 "friendsofsymfony/http-cache": "1.3.*",
@@ -3506,7 +3510,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-08-20 09:46:02"
+            "time": "2015-08-20 12:18:40"
         },
         {
             "name": "swiftmailer/swiftmailer",
