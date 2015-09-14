@@ -1,9 +1,18 @@
 # Learn more about services, parameters and containers at
 # http://symfony.com/doc/current/book/service_container.html
 parameters:
-#    parameter_name: value
+    jms_serializer.identical_property_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
 
 services:
-#    service_name:
-#        class: AppBundle\Directory\ClassName
-#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+    jms_serializer.identical_property_naming_strategy:
+        class: %jms_serializer.identical_property_naming_strategy.class%
+        public: false
+
+    sulu.serialized_naming_strategy:
+        class: %jms_serializer.serialized_name_annotation_strategy.class%
+        public: false
+        arguments:
+            - @jms_serializer.identical_property_naming_strategy
+
+    jms_serializer.naming_strategy:
+        alias: sulu.serialized_naming_strategy
