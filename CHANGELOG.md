@@ -1,7 +1,7 @@
 CHANGELOG for Sulu CMF
 ======================
 * 1.0.10 (XXXX-XX-XX)
-    * HOTFIX      #XXXX [Sulu-Standard]  Fixed ignored serialization annotations
+    * HOTFIX      #501  [Sulu-Standard]  Fixed ignored serialization annotations
 
 * 1.0.9 (2015-08-31)
     * HOTFIX      #1539 [WebsiteBundle]  Fixed canonical tag for shadow pages
