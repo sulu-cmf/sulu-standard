@@ -12,9 +12,23 @@ doctrine:
                 CAST: Sulu\Component\Rest\DQL\Cast
 
 # Just a dirty hack to get the jms serializer bundle correctly working
-# https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
+# https://github.com/schmittjoh/JMSSerializerBundle/pull/445
 parameters:
-    jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
+    jms_serializer.identical_property_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
+
+services:
+    jms_serializer.identical_property_naming_strategy:
+        class: %jms_serializer.identical_property_naming_strategy.class%
+        public: false
+
+    sulu.serialized_naming_strategy:
+        class: %jms_serializer.serialized_name_annotation_strategy.class%
+        public: false
+        arguments:
+            - @jms_serializer.identical_property_naming_strategy
+
+    jms_serializer.naming_strategy:
+        alias: sulu.serialized_naming_strategy
 
 # Massive Build Configuration
 massive_build:
