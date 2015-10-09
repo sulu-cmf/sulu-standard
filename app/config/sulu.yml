@@ -139,3 +139,7 @@ sulu_http_cache:
     proxy_client:
         symfony:
             enabled: true
+
+doctrine_migrations:
+    dir_name: '%kernel.root_dir%/..'
+    name: '%sulu_admin.name% Migrations'
