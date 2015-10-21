@@ -2,7 +2,18 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
-    * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
+    * BUGFIX      #535  [SULU-STANDARD]   Added naming strategy for serializer to handle it the same in both kernels
+    * BUGFIX      #526  [SULU-STANDARD]   Fixed default template preview
+    * BUGFIX      #525  [SULU-STANDARD]   Added translation for new resource locator error
+    * ENHANCEMENT #517  [SULU-STANDARD]   Ditched saucelabs for faster tests
+    * BUGFIX      #474  [SULU-STANDARD]   Registered SuluGeneratorBundle
+    * FEATURE     #500  [SULU-STANDARD]   Added tag list to overview template
+
+* 1.0.12 (2015-09-23)
+    * HOTFIX      #1596 [GeneratorBundle] Fixed sulu bundle generator path generation
+    * HOTFIX      #1615 [Content]         Fixed resource segment subscriber for order internal link
+    * HOTFIX      #1612 [Content]         Fixed non copy content of snippet
+    * HOTFIX      #493  [Sulu-Standard]   Use sulu_seo twig method instead of deprecated sulu_meta_seo
 
 * 1.0.11 (2015-09-17)
     * HOTFIX      #1594 [Website] Fixed website request analyzer

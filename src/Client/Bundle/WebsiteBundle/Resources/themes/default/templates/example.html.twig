@@ -2,8 +2,6 @@
 
 {% block meta %}{% include "ClientWebsiteBundle:blocks:meta.html.twig" %}{% endblock %}
 
-{% block title %}{{ content.title }}{% endblock %}
-
 {% block content %}
     <div id="content" vocab="http://schema.org/" typeof="Content">
 
@@ -120,12 +118,42 @@
             {% endfor %}
         </div>
 
+        <h1>Contact Selection</h1>
+
+        <div property="contactSelection">
+            <table width="100%">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                </tr>
+                {% for contact in content.contactSelection %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td>{{ contact.type == 'contact' ? contact.fullName : contact.name }}</td>
+                        <td>
+                            {% for email in contact.emails %}
+                                <a href="mailto:{{ email.email }}">{{ email.email }}</a>
+                                {% if not loop.last %}&nbsp;|&nbsp;{% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="3">No contact selected</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+
         <h1>Contacts</h1>
+
+        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.contacts.categoryRoot, parameter: view.contacts.categoriesParameter} %}
 
         <div property="contacts" class="row">
             {% for contact in content.contacts %}
                 <div class="col-lg-{{ view.contacts.presentAs }}">
-                    <h2>{{ contact.fullName }}</h2>
+                    <h5>{{ contact.fullName }}</h5>
 
                     <p>{{ contact.tags|join(', ') }}</p>
                 </div>
@@ -136,10 +164,12 @@
 
         <h1>Accounts</h1>
 
+        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.accounts.categoryRoot, parameter: view.accounts.categoriesParameter} %}
+
         <div property="accounts" class="row">
             {% for account in content.accounts %}
                 <div class="col-lg-{{ view.accounts.presentAs }}">
-                    <h2>{{ account.name }}</h2>
+                    <h5>{{ account.name }}</h5>
 
                     <p>{{ account.tags|join(', ') }}</p>
                 </div>
