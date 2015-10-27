@@ -1,5 +1,7 @@
 CHANGELOG for Sulu CMF
 ======================
+* 1.0.10 (XXXX-XX-XX)
+    * HOTFIX      #501  [Sulu-Standard]  Fixed ignored serialization annotations
 
 * 1.0.13 (2015-10-22)
     * HOTFIX      #1634 [SecurityBundle] Allow attribute overrides for user email field
