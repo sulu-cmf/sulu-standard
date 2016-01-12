@@ -1,5 +1,7 @@
 # Sulu - Content Management
 
+[![Join the chat at https://gitter.im/sulu-io/sulu-standard](https://badges.gitter.im/sulu-io/sulu-standard.svg)](https://gitter.im/sulu-io/sulu-standard?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![](https://travis-ci.org/sulu-io/sulu-standard.svg?branch=master)](https://travis-ci.org/sulu-io/sulu-standard)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sulu-io/sulu-standard/badges/quality-score.png?s=3039e48d6515ea846578ca06f3c5bd5442ad3c5b)](https://scrutinizer-ci.com/g/sulu-io/sulu-standard/)
 
