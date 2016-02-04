@@ -3086,16 +3086,16 @@
         },
         {
             "name": "phpcr/phpcr-migrations",
-            "version": "0.1",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-migrations.git",
-                "reference": "ed60530a330a9a148bea0ed1dbad7dba4a639f90"
+                "reference": "2d937771dde8bce19d198c6303c1da5a9e3af864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-migrations/zipball/ed60530a330a9a148bea0ed1dbad7dba4a639f90",
-                "reference": "ed60530a330a9a148bea0ed1dbad7dba4a639f90",
+                "url": "https://api.github.com/repos/phpcr/phpcr-migrations/zipball/2d937771dde8bce19d198c6303c1da5a9e3af864",
+                "reference": "2d937771dde8bce19d198c6303c1da5a9e3af864",
                 "shasum": ""
             },
             "require": {
@@ -3128,7 +3128,7 @@
                 }
             ],
             "description": "Migrations for PHPCR",
-            "time": "2015-04-29 14:00:32"
+            "time": "2016-02-04 09:39:59"
         },
         {
             "name": "phpcr/phpcr-utils",
@@ -3732,7 +3732,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/379b4137baeeaf320bac452a453d6c2b2bde4697",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/d3f41b327064737e300fa0870047a620447ab7d5",
                 "reference": "379b4137baeeaf320bac452a453d6c2b2bde4697",
                 "shasum": ""
             },
