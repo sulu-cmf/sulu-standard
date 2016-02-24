@@ -61,6 +61,7 @@
             <environments>
                 <environment type="prod">
                     <urls>
+                        <url>platform-sh-dorwvrjpiiigc.eu.platform.sh/{localization}</url>
                         <url language="en">sulu.us</url>
                         <url language="de">www.sulu.io</url>
                         <url>sulu.lo/{localization}</url>
@@ -68,6 +69,7 @@
                 </environment>
                 <environment type="stage">
                     <urls>
+                        <url>platform-sh-dorwvrjpiiigc.eu.platform.sh/{localization}</url>
                         <url>stage.sulu.lo/{localization}</url>
                         <url>sulu.lo/{localization}</url>
                     </urls>

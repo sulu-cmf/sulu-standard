@@ -1,0 +1,108 @@
+# This file describes an application. You can have multiple applications
+# in the same project.
+
+# The name of this app. Must be unique within a project.
+name: sulu
+
+# The type of the application to build.
+type: php:7.0
+build:
+  flavor: symfony
+
+# The relationships of the application with services or other applications.
+# The left-hand side is the name of the relationship as it will be exposed
+# to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
+# side is in the form `<service name>:<endpoint name>`.
+relationships:
+    database: 'mysql:mysql'
+
+# The configuration of app when it is exposed to the web.
+web:
+    # The public directory of the app, relative to its root.
+    document_root: '/web'
+    # The front-controller script to send non-static requests to.
+    passthru: '/app.php'
+    # A list of static files (as regular expressions) that may be served.
+    whitelist:
+      # CSS and Javascript.
+      - \.css$
+      - \.js$
+      - \.json$
+      - \.hbs$
+
+      # image/* types.
+      - \.gif$
+      - \.jpe?g$
+      - \.png$
+      - \.tiff?$
+      - \.wbmp$
+      - \.ico$
+      - \.jng$
+      - \.bmp$
+      - \.svgz?$
+
+      # audio/* types.
+      - \.midi?$
+      - \.mpe?ga$
+      - \.mp2$
+      - \.mp3$
+      - \.m4a$
+      - \.ra$
+      - \.weba$
+
+      # video/* types.
+      - \.3gpp?$
+      - \.mp4$
+      - \.mpe?g$
+      - \.mpe$
+      - \.ogv$
+      - \.mov$
+      - \.webm$
+      - \.flv$
+      - \.mng$
+      - \.asx$
+      - \.asf$
+      - \.wmv$
+      - \.avi$
+
+      # application/ogg.
+      - \.ogx$
+
+      # application/x-shockwave-flash.
+      - \.swf$
+
+      # application/java-archive.
+      - \.jar$
+
+      # fonts types.
+      - \.ttf$
+      - \.eot$
+      - \.woff$
+      - \.otf$
+
+      # robots.txt.
+      - /robots\.txt$
+
+# The size of the persistent disk of the application (in MB).
+disk: 2048
+
+# The mounts that will be performed when the package is deployed.
+mounts:
+    '/app/cache': 'shared:files/cache'
+    '/app/data': 'shared:files/data'
+    '/app/logs': 'shared:files/logs'
+    '/web/uploads': 'shared:files/web-uploads'
+    '/uploads': 'shared:files/uploads'
+
+# The hooks that will be performed when the package is deployed.
+hooks:
+    build: |
+      cp ./app/Resources/webspaces/sulu.io.xml.dist ./app/Resources/webspaces/sulu.io.xml
+      cp ./app/Resources/pages/overview.xml.dist ./app/Resources/pages/overview.xml
+      cp ./app/Resources/pages/default.xml.dist ./app/Resources/pages/default.xml
+      ./app/webconsole --env=prod assetic:dump
+    deploy: |
+      ./app/console --env=prod sulu:build dev --no-interaction
+      ./app/console --env=prod cache:clear
+      ./app/webconsole --env=prod cache:clear
+
