@@ -5,6 +5,7 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
     * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
     * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+    * ENHANCEMENT #---  [SULU-STANDARD]   Change default log level on prod env to error
 
 * 1.1.7 (2016-01-26)
     * HOTFIX      #1952 [PersistenceBundle] Fixed mapped superclass inheritance
