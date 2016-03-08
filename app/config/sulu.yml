@@ -115,6 +115,7 @@ sulu_content:
                 index: snippet
 
 sulu_document_manager:
+    debug: %kernel.debug%
     mapping:
         page:
             class: Sulu\Bundle\ContentBundle\Document\PageDocument
