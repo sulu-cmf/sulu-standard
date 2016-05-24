@@ -75,7 +75,6 @@ abstract class AbstractKernel extends SuluKernel
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
-            new Liip\ThemeBundle\LiipThemeBundle(),
 
             // tools
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
