@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be4e4d32dc0881912bc5522cb9309cea",
-    "content-hash": "d8610374dcc2b9bb941617c9923eff39",
+    "hash": "9829219fe70cd35e75237eee94b8f9a4",
+    "content-hash": "2269f67f199fc9bddcd0893a3f72d297",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3860,16 +3860,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "dev-bugfix/content-mapper-request",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sulu/sulu.git",
-                "reference": "b216772469d0fb65762d03e0a9ae62c7fcb468c6"
+                "url": "https://github.com/danrot/sulu.git",
+                "reference": "dd2b76b07223069e67c4a0975243594bca5fe6f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/b216772469d0fb65762d03e0a9ae62c7fcb468c6",
-                "reference": "b216772469d0fb65762d03e0a9ae62c7fcb468c6",
+                "url": "https://api.github.com/repos/danrot/sulu/zipball/dd2b76b07223069e67c4a0975243594bca5fe6f9",
+                "reference": "dd2b76b07223069e67c4a0975243594bca5fe6f9",
                 "shasum": ""
             },
             "require": {
@@ -3948,7 +3948,11 @@
                     "src/Sulu/Bundle/*/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-0": {
+                    "Sulu\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -3963,7 +3967,10 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-05-24 07:36:55"
+            "support": {
+                "source": "https://github.com/danrot/sulu/tree/bugfix/content-mapper-request"
+            },
+            "time": "2016-05-25 11:39:12"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4124,7 +4131,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
