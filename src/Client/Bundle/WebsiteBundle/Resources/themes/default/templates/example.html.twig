@@ -39,7 +39,7 @@
 
                         <p property="single">{{ block.single }}</p>
                     {% elseif block.type == 'editor_image' %}
-                        {% set viewBlock = view.block[loop.index - 1] %}
+                        {% set viewBlock = view.blocks[loop.index - 1] %}
                         {% if viewBlock.images is not null %}
                             {% set displayOption = viewBlock.images.displayOption|default('top') %}
                             {% if displayOption == 'top' %}
@@ -246,42 +246,42 @@
 
         <table class="table">
             <tbody>
-            <tr>
-                <td>Note</td>
-                <td property="note">{{ content.note }}</td>
-            </tr>
-            <tr>
-                <td>Phone</td>
-                <td property="phone">{{ content.phone }}</td>
-            </tr>
-            <tr>
-                <td>Password</td>
-                <td property="password">{{ content.password }}</td>
-            </tr>
-            <tr>
-                <td>Source</td>
-                <td property="source">{{ content.source }}</td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td property="email">{{ content.email }}</td>
-            </tr>
-            <tr>
-                <td>Color</td>
-                <td property="color">{{ content.color }}</td>
-            </tr>
-            <tr>
-                <td>Date</td>
-                <td property="date">{{ content.date }}</td>
-            </tr>
-            <tr>
-                <td>Time</td>
-                <td property="time">{{ content.time }}</td>
-            </tr>
-            <tr>
-                <td>Checkbox</td>
-                <td property="checkbox">{{ content.checkbox }}</td>
-            </tr>
+                <tr>
+                    <td>Note</td>
+                    <td property="note">{{ content.note }}</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td property="phone">{{ content.phone }}</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td property="password">{{ content.password }}</td>
+                </tr>
+                <tr>
+                    <td>Source</td>
+                    <td property="source">{{ content.source }}</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td property="email">{{ content.email }}</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td property="color">{{ content.color }}</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td property="date">{{ content.date }}</td>
+                </tr>
+                <tr>
+                    <td>Time</td>
+                    <td property="time">{{ content.time }}</td>
+                </tr>
+                <tr>
+                    <td>Checkbox</td>
+                    <td property="checkbox">{{ content.checkbox }}</td>
+                </tr>
             </tbody>
         </table>
     </div>
