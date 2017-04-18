@@ -9,6 +9,16 @@ parameters:
     # You should uncomment this if you want use pdo_sqlite
     # database_path: "%kernel.root_dir%/data.db3"
 
+    # phpcr_backend:
+    #     type: jackrabbit
+    #     url: http://localhost:8080/server/
+    phpcr_backend:
+        type: doctrinedbal
+    phpcr_workspace: default
+    phpcr_user: admin
+    phpcr_pass: admin
+    phpcr_cache: file_system
+
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
     mailer_user:       ~

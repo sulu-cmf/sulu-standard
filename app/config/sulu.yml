@@ -1,6 +1,3 @@
-imports:
-    - { resource: phpcr.yml }
-
 framework:
     translator: { fallback: "%locale%" }
 

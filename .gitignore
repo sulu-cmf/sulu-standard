@@ -3,7 +3,6 @@
 /app/data/*
 /app/config/config.local.yml
 /app/config/parameters.yml
-/app/config/phpcr.yml
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
