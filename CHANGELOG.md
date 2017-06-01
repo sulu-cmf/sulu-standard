@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * BUGFIX      #824  [SULU-STANDARD]         Remove database version
+
 * 1.6.0-RC1 (2017-06-01)
     * BUGFIX      #816  [SULU-STANDARD]         Added 'ClientWebsiteBundle' to default bundles of Assetic configuration.
     * ENHANCEMENT #795  [SULU-STANDARD]         Updated dependencies and fixed symfony3 deprecations
