@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% autoescape false %}
+            {{ sulu_seo(extension.seo, content, urls, shadowBaseLocale) }}
+        {% endautoescape %}
+
+        {% block meta %} {% endblock %}
+
+        {% block style %}{% endblock %}
+    </head>
+    <body>
+        <header>
+            {% block header %}
+                <nav>
+                    <ul>
+                        {% for item in sulu_navigation_root_tree() %}
+                            <li>
+                                <a href="{{ sulu_content_path(item.url) }}"
+                                   title="{{ item.title }}">{{ item.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            {% endblock %}
+        </header>
+
+        <section id="content" vocab="http://schema.org/" typeof="Content">
+            {% block content %}{% endblock %}
+        </section>
+
+        <aside>
+            {% block aside %}{% endblock %}
+        </aside>
+
+        <footer>
+            {% block footer %}
+                <p>Copyright {{ 'now'|date('Y') }} SULU</p>
+            {% endblock %}
+        </footer>
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

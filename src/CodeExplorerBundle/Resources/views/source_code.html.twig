@@ -1,0 +1,7 @@
+{% if controller %}
+    <h3>{{ controller.file_path|format_file(controller.starting_line) }}</h3>
+    <pre><code class="php">{{ controller.source_code }}</code></pre>
+{% endif %}
+
+<h3>{{ template.name }}</h3>
+<pre><code class="twig">{{ template.source_code }}</code></pre>

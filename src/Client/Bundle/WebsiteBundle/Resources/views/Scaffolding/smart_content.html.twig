@@ -1,0 +1,13 @@
+{% block content_type_smart_content %}
+    <div property="{{ property.name }}">
+        <div>
+            {% for page in content[property.name] %}
+                <h2>{{ page.title }}</h2>
+
+                {{ page.description|default('')|raw }}
+
+                <a href="{{ sulu_content_path(page.url) }}">{{ page.more|default('') }}</a>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

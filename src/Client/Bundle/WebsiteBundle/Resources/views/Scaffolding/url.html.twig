@@ -1,0 +1,7 @@
+{% block content_type_url %}
+    <a property="{{ property.name }}"
+       href="{{ content[property.name] }}"
+       title="{{ helper.param(property.parameters, 'title', 'title', request.locale) }}">
+        {{ helper.param(property.parameters, 'content', 'title', request.locale) }}
+    </a>
+{% endblock %}

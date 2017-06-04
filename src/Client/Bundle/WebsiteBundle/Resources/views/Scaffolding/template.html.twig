@@ -1,0 +1,30 @@
+{% extends "ClientWebsiteBundle:views:master.html.twig" %}
+
+{% macro param(params, name, meta, locale) %}
+    {% for param in params if param.name == name %}
+        {{ param.meta[meta][locale] }}
+    {% endfor %}
+{% endmacro %}
+
+{% import _self as helper %}
+
+{% block aside %}
+    {% if app.environment == 'dev' %}
+        {{ show_source_code(_self) }}
+
+        <h3>Context:</h3>
+        {{ dump() }}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% for property in metadata.properties %}
+        {{ block('property_'~property.name)|default(block("content_type_"~property.type))|raw }}
+    {% endfor %}
+{% endblock %}
+
+{% use "ClientWebsiteBundle:Scaffolding:text_line.html.twig" %}
+{% use "ClientWebsiteBundle:Scaffolding:text_editor.html.twig" %}
+{% use "ClientWebsiteBundle:Scaffolding:text_area.html.twig" %}
+{% use "ClientWebsiteBundle:Scaffolding:smart_content.html.twig" %}
+{% use "ClientWebsiteBundle:Scaffolding:url.html.twig" %}

@@ -1,0 +1,7 @@
+{% block content_type_text_line %}
+    {% if property.name == 'title' %}
+        <h1 property="{{ property.name }}">{{ content[property.name] }}</h1>
+    {% else %}
+        <p property="{{ property.name }}">{{ content[property.name] }}</p>
+    {% endif %}
+{% endblock %}
