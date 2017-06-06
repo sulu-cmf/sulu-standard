@@ -12,6 +12,10 @@ assetic:
 
 doctrine:
     orm:
+        filters:
+            softdeleteable:
+                class: Gedmo\SoftDeleteable\Filter\SoftDeleteableFilter
+                enabled: true
         mappings:
             gedmo_tree:
                 type: "xml"
@@ -39,6 +43,7 @@ stof_doctrine_extensions:
     orm:
         default:
             tree: true
+            softdeleteable: true
 
 # JMS Serializer
 jms_serializer:
