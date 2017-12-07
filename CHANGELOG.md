@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #836                                     Fixed conflict of admin and website session cookie
+
 * 1.6.9 (2017-12-04)
     * ENHANCEMENT sulu/sulu#3665 [CategoryBundle]          Added keywords to category serialization
     * HOTFIX      sulu/sulu#3671 [CoreBundle]              Remove cache builder from sulu:build command
