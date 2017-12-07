@@ -4,6 +4,12 @@ imports:
     - { resource: ../config.yml }
     - { resource: ../widgets.yml }
 
+framework:
+    session:
+        cookie_path: /admin
+    fragments:
+        path: /admin/_fragments
+
 # Assetic Configuration
 assetic:
     bundles: []
