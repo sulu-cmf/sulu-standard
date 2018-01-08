@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #837  [Sulu-Standard]           Remove deprecated apcu example in website.php and admin.php
+
 * 1.6.12 (2017-12-21)
     * ENHANCEMENT #3698 [ContentBundle]           SEO description length changed from 155 to 320
     * HOTFIX      #3695 [RouteBundle]             Added check for empty request format
