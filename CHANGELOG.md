@@ -4,6 +4,12 @@ CHANGELOG for Sulu CMF
 * dev-master
     * HOTFIX      #837  [Sulu-Standard]           Remove deprecated apcu example in website.php and admin.php
 
+* 1.6.13 (2017-01-18)
+    * ENHANCEMENT #3715 [RouteBundle]             RouteRepository: Added method 'findAllByEntity'
+    * HOTFIX      #3713 [WebsiteBundle]           Fixed redirect listener to allow trailing slashes for homepage
+    * HOTFIX      #3709 [CategoryBundle]          Category API: Fix bug when searching with rootKey parameter
+    * BUGFIX      #3693 [MediaBundle]             Fix retina flag in XmlFormatLoader11 & add tests for retina flag
+
 * 1.6.12 (2017-12-21)
     * ENHANCEMENT #3698 [ContentBundle]           SEO description length changed from 155 to 320
     * HOTFIX      #3695 [RouteBundle]             Added check for empty request format
@@ -149,6 +155,10 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
+* 1.5.9 (2018-01-18)
+    * HOTFIX      #3709 [CategoryBundle]        Category API: Fix bug when searching with rootKey parameter
+    * BUGFIX      #3693 [MediaBundle]           Fix retina flag in XmlFormatLoader11 & add tests for retina flag
 
 * 1.5.8 (2017-12-13)
     * HOTFIX      #3684 [SecurityBundle]        Fixed conflict between admin and website session cookie
