@@ -18,7 +18,7 @@ php:
     - 7.0
 
 before_script:
-    - echo "memory_limit=2048M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+    - echo "memory_limit=4096M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
     - ./tests/beforetests.sh
 
 after_script:
