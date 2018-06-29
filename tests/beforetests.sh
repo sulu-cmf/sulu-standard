@@ -31,7 +31,7 @@ mkdir -p $LOGS_DIR
 composer selfupdate
 
 # FIXME hack for prefer-lowest bug: https://github.com/composer/composer/issues/7161
-if [[ $COMPOSER_FLAGS == *"--prefer-lowest"* ]]; then composer install fi
+if [[ $COMPOSER_FLAGS == *"--prefer-lowest"* ]]; then composer install; fi
 
 composer update $COMPOSER_FLAGS
 cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
